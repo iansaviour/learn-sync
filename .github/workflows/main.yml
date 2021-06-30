@@ -20,7 +20,7 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
       with:
         source: "."
-        target: "/var/www/public"
+        target: "/var/www/public/learn_sync"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
